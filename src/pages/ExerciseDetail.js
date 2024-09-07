@@ -25,7 +25,7 @@ const ExerciseDetail = () => {
   }, [id]);
 
   return (
-    <Box>
+    <Box sx={{ mt: { lg: '96px', xs: '60px' } }}>
       <Detail exerciseDetail={exerciseDetail} />
       <ExerciseVideos />
       <SimilarExercises/>
